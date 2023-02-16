@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Flat-Cards",
+    "slug": "Flat-Cards",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Flat-Cards"
+}
