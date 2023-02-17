@@ -12,15 +12,24 @@ function App() {
       <ScrollView>
         <FlatCard />
         <Elevatedcards />
-        <FancyCard />
-        <FancyCard />
+        <Text style={styles.headingText}>Trending Places</Text>
+        <ScrollView horizontal>
+          <FancyCard />
+          <FancyCard />
+        </ScrollView>
         <ActionCard />
-        <ContactList />
+        {/* <ContactList /> */}
       </ScrollView>
     </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  headingText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    paddingHorizontal: 8,
+  },
+});
 
 export default App;

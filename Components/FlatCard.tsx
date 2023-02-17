@@ -26,7 +26,10 @@ export function FlatCard() {
 }
 const styles = StyleSheet.create({
   headingText: {
-    margin: 10,
+    fontSize: 24,
+    fontWeight: 'bold',
+    paddingHorizontal: 8,
+    marginTop:20
   },
   container: {
     flex:1,

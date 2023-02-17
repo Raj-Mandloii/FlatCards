@@ -3,8 +3,7 @@ import React from 'react';
 
 const FancyCard = () => {
   return (
-    <View>
-      <Text style={styles.headingText}>Trending Places</Text>
+    <View style={styles.container}>
       <View style={[styles.card, styles.cardElevated]}>
         <Image
           source={{
@@ -41,6 +40,9 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     paddingHorizontal: 8,
+  },
+  container:{
+    width:350
   },
   card: {
     // width:"100%",
