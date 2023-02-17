@@ -14,11 +14,20 @@ const FancyCard = () => {
         />
         <View style={styles.cardBody}>
           <Text style={styles.cardTitle}>Desert</Text>
-          <Text style={styles.cardLabel}>Rajsthan</Text>
+          <Text style={styles.cardLabel}>Rajasthan (राजस्थान)</Text>
           <Text style={styles.cardDescription}>
-            This is the place located in rajasthan
+            Rajasthan is a state in northern India. It covers 342,239 square
+            kilometres or 10.4 per cent of India's total geographical area. It
+            is the largest Indian state by area and the seventh largest by
+            population.
           </Text>
-          <Text style={styles.cardFooter}>12 min away</Text>
+          <Text style={styles.cardDescription}>
+            राजस्थान भारत गणराज्य का क्षेत्रफल के आधार पर सबसे बड़ा राज्य है।इस
+            राज्य की एक अंतरराष्ट्रीय सीमा पाकिस्तान के साथ 1070 km लगती है।
+            जिसे रेड क्लिप रेखा के नाम से जानते है| इसके अतिरिक्त यह देश के अन्य
+            पाँच राज्यों से भी जुड़ा है। विकिपीडिया
+          </Text>
+          <Text style={styles.cardFooter}>120 min away</Text>
         </View>
       </View>
     </View>
@@ -55,33 +64,31 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 6,
   },
   cardBody: {
-    flex:1,
-    flexGrow:1,
-    paddingHorizontal:12
+    flex: 1,
+    flexGrow: 1,
+    paddingHorizontal: 12,
   },
   cardTitle: {
     color: 'black',
-    fontSize:22,
-    fontWeight:"bold",
-    marginBottom:6
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 6,
   },
   cardLabel: {
     color: 'black',
-    fontSize:16,
-    marginBottom:6
-
+    fontSize: 16,
+    marginBottom: 6,
   },
   cardDescription: {
     color: '#242B2E',
-    fontSize:12,
-    marginBottom:12,
-    flexShrink:1,
-    marginTop:6,
-
+    fontSize: 12,
+    marginBottom: 12,
+    flexShrink: 1,
+    marginTop: 6,
   },
   cardFooter: {
     color: 'black',
-    fontSize:10,
-    marginBottom:12
+    fontSize: 10,
+    marginBottom: 12,
   },
 });
