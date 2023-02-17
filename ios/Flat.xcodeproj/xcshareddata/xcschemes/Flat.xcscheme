@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "FlatCards.app"
-               BlueprintName = "FlatCards"
-               ReferencedContainer = "container:FlatCards.xcodeproj">
+               BuildableName = "Flat.app"
+               BlueprintName = "Flat"
+               ReferencedContainer = "container:Flat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "FlatCardsTests.xctest"
-               BlueprintName = "FlatCardsTests"
-               ReferencedContainer = "container:FlatCards.xcodeproj">
+               BuildableName = "FlatTests.xctest"
+               BlueprintName = "FlatTests"
+               ReferencedContainer = "container:Flat.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "FlatCards.app"
-            BlueprintName = "FlatCards"
-            ReferencedContainer = "container:FlatCards.xcodeproj">
+            BuildableName = "Flat.app"
+            BlueprintName = "Flat"
+            ReferencedContainer = "container:Flat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "FlatCards.app"
-            BlueprintName = "FlatCards"
-            ReferencedContainer = "container:FlatCards.xcodeproj">
+            BuildableName = "Flat.app"
+            BlueprintName = "Flat"
+            ReferencedContainer = "container:Flat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

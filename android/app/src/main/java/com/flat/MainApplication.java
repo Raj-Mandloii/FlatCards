@@ -1,4 +1,4 @@
-package com.flatcards;
+package com.flat;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
